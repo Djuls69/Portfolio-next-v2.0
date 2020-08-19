@@ -14,6 +14,20 @@ export default function Home() {
     <div>
       <Head>
         <title>Julien Delusseau | Web Développeur</title>
+        <meta
+          name='description'
+          key='description'
+          content='Bienvenu sur mon portfolio. Contactez moi pour vous fournir une application ou site web moderne, rapide, et abordable.'
+        />
+        <meta property='og:type' content='website' />
+        <meta property='og:image' content='https://i.imgur.com/Ix7SZvb.png' />
+        <meta property='og:image:type' content='image/png' />
+        <meta property='og:image:width' content='1200' />
+        <meta property='og:image:height' content='630' />
+        <meta property='og:image:alt' content='Julien Delusseau Portfolio' />
+        <meta property='og:title' content='Julien Delusseau Portfolio' />
+        <meta property='og:url' content='http://www.juliendelusseau.fr' />
+        <link rel='canonical' href='http://www.juliendelusseau.fr' />
         <link rel='icon' href='/favicon.png' />
         <link
           href='https://fonts.googleapis.com/css2?family=Fira+Code&family=Oxygen&family=Roboto&display=swap'

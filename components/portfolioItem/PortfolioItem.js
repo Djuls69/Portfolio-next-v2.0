@@ -25,7 +25,7 @@ const PortfolioItem = ({ item }) => {
         style={{ alignItems: !matches && id % 2 !== 0 ? 'flex-end' : 'flex-start' }}
         className={classes.projectContent}
       >
-        <h2>A propos du project</h2>
+        <h2>A propos du projet</h2>
         <h1>{titre}</h1>
         <div className={classes.projectDescription}>{description}</div>
         <ul className={classes.projectTechnos}>
