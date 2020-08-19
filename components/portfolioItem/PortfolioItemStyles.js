@@ -30,7 +30,7 @@ export const portfolioItemStyles = makeStyles(theme => ({
       display: 'block',
       borderRadius: 5
     },
-    '&:hover .makeStyles-projectOverlay-25': {
+    '&:hover div': {
       opacity: 0.5
     },
     [theme.breakpoints.down('sm')]: {

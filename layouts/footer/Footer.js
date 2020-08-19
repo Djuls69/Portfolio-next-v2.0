@@ -23,7 +23,12 @@ const Footer = () => {
     <footer id='footer' className={classes.footer}>
       <p>&copy; Julien Delusseau 2020</p>
       <p>
-        <a className={classes.footerLink} href='https://github.com/Djuls69/Portfolio-v2.0'>
+        <a
+          className={classes.footerLink}
+          href='https://github.com/Djuls69/Portfolio-next-v2.0'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           Github de ce portfolio
         </a>
       </p>
