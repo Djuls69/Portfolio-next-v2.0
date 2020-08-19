@@ -1,6 +1,5 @@
 import React from 'react'
 import TechList from '../../components/techList/TechList'
-import profilePic from '../../assets/images/profile.jpg'
 import SectionTitle from '../../components/sectionTitle/SectionTitle'
 import { aboutStyles } from './AboutStyles'
 
@@ -22,7 +21,7 @@ const About = () => {
         </div>
         <div className={classes.aboutImage}>
           <div className={classes.profilePic}>
-            <img src={profilePic} alt='Profil' />
+            <img src='/assets/images/profile.jpg' alt='Profil' />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as SendIcon } from '../../assets/icons/Icon-send.svg'
+import { SendIcon } from '../../components/svg/SvgComponents'
 import SectionTitle from '../../components/sectionTitle/SectionTitle'
 import CustomButton from '../../components/customButton/CustomButton'
 import { contactStyles } from './ContactStyles'

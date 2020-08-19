@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-const Home = () => {
+const LandingPage = () => {
   const classes = useStyles()
   return (
     <section id='home' className={classes.home}>
@@ -56,4 +56,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default LandingPage

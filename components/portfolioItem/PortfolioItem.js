@@ -1,6 +1,6 @@
 import React from 'react'
-import { ReactComponent as GithubLink } from '../../assets/icons/Icon-github.svg'
-import { ReactComponent as ExternalLink } from '../../assets/icons/Icon-external-link.svg'
+import { ExternalLinkIcon } from '../svg/SvgComponents'
+import { GithubLogo } from '../socialLogosSVG/SocialLogosSvg'
 import { portfolioItemStyles } from './PortfolioItemStyles'
 import { useTheme, useMediaQuery } from '@material-ui/core'
 
@@ -35,10 +35,10 @@ const PortfolioItem = ({ item }) => {
         </ul>
         <div>
           <a className={classes.projectLinks} href={github} target='_blank' rel='noopener noreferrer'>
-            <GithubLink />
+            <GithubLogo />
           </a>
           <a className={classes.projectLinks} href={link} target='_blank' rel='noopener noreferrer'>
-            <ExternalLink />
+            <ExternalLinkIcon />
           </a>
         </div>
       </div>

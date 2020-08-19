@@ -1,6 +1,13 @@
 import Head from 'next/head'
 import Header from '../layouts/header/Header'
 import SocialMedias from '../layouts/socialMedias/SocialMedias'
+import ContactRight from '../layouts/contactRight/ContactRight'
+import LandingPage from '../layouts/landingPage/LandingPage'
+import About from '../layouts/about/About'
+import Services from '../layouts/services/Services'
+import Portfolio from '../layouts/portfolio/Portfolio'
+import Contact from '../layouts/contact/Contact'
+import Footer from '../layouts/footer/Footer'
 
 export default function Home() {
   return (
@@ -23,6 +30,15 @@ export default function Home() {
       <main>
         <Header />
         <SocialMedias />
+        <div className='content'>
+          <LandingPage />
+          <About />
+          <Services />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </div>
+        <ContactRight />
       </main>
     </div>
   )

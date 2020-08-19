@@ -1,8 +1,6 @@
 import React from 'react'
 import { Grid } from '@material-ui/core'
-import { ReactComponent as LaptopIcon } from '../../assets/icons/Icon-laptop-code.svg'
-import { ReactComponent as UsersIcon } from '../../assets/icons/Icon-users.svg'
-import { ReactComponent as PencilIcon } from '../../assets/icons/Icon-pencil-ruler.svg'
+import { LaptopIcon, UsersIcon, PencilIcon } from '../../components/svg/SvgComponents'
 import SectionTitle from '../../components/sectionTitle/SectionTitle'
 import { servicesStyles } from './ServicesStyles'
 
