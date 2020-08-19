@@ -1,8 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core'
-import { ReactComponent as Linkedin } from '../../assets/icons/Icon-linkedin.svg'
-import { ReactComponent as Github } from '../../assets/icons/Icon-github.svg'
-import { ReactComponent as Twitter } from '../../assets/icons/Icon-twitter.svg'
+import { LinkedinLogo, GithubLogo, TwitterLogo } from '../../components/socialLogosSVG/SocialLogosSvg'
 
 const useStyles = makeStyles(theme => ({
   socialMedias: {
@@ -46,7 +44,7 @@ const SocialMedias = () => {
   return (
     <div className={classes.socialMedias}>
       <a className={classes.socialLink} href='https://github.com/Djuls69' target='_blank' rel='noopener noreferrer'>
-        <Github className={classes.socialIcon} />
+        <GithubLogo className={classes.socialIcon} />
       </a>
       <a
         className={classes.socialLink}
@@ -54,10 +52,10 @@ const SocialMedias = () => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        <Linkedin className={classes.socialIcon} />
+        <LinkedinLogo className={classes.socialIcon} />
       </a>
       <a className={classes.socialLink} href='https://twitter.com/Falk3D' target='_blank' rel='noopener noreferrer'>
-        <Twitter className={classes.socialIcon} />
+        <TwitterLogo className={classes.socialIcon} />
       </a>
     </div>
   )
